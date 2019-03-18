@@ -1,24 +1,21 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Main Styling */
-  html,
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7em;
+  html {
+      background: url("..img/photo-1.jpg") no-repeat center center/cover;
   }
+
   
   a {
     color: #333;
     text-decoration: none;
   }
   
-  h1,
-  h2,
+  
+  
   h3 {
     padding-bottom: 20px;
   }
@@ -27,8 +24,8 @@
     margin: 10px 0;
   }
   
-  /* Utility */
-  .container {
+  
+  .robo-rob {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
@@ -46,7 +43,7 @@
   .btn {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+    color: red;
     background: #333;
     padding: 13px 20px;
     border: none;
@@ -82,12 +79,12 @@
     clear: both;
   }
   
-  .l-heading {
+  .heading-main {
     font-size: 40px;
     line-height: 1.2;
   }
   
-  /* Padding */
+  
   .py-1 {
     padding: 10px 0;
   }
@@ -98,66 +95,49 @@
     padding: 30px 0;
   }
   
-  /* Navbar */
-  #navbar {
+  
+  
+  #navbat .logo {
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #navbat ul {
+    list-style: none;
+    float: right;
+  }
+
+  
+  #navbat {
     background: #333;
     color: #fff;
     overflow: auto;
   }
   
-  #navbar a {
+  #navbat a {
     color: #fff;
   }
   
-  #navbar .logo {
-    float: left;
-    padding-top: 20px;
-  }
-  
-  #navbar ul {
-    list-style: none;
-    float: right;
-  }
-  
-  #navbar ul li {
+  #navbat ul li {
     float: left;
   }
   
-  #navbar ul li a {
+  #navbat ul li a {
     display: block;
     padding: 20px;
     text-align: center;
   }
   
-  #navbar ul li a:hover,
-  #navbar ul li a.current {
+  #navbat ul li a:hover,
+  #navbat ul li a.current {
     background: #444;
     color: #f7c08a;
   }
   
-  /* Showcase */
-  #showcase {
-    background: url("../img/showcase.jpg") no-repeat center center/cover;
-    height: 600px;
-  }
+
   
-  #showcase #showcase-content {
-    color: #fff;
-    text-align: center;
-    padding-top: 170px;
-  }
   
-  #showcase #showcase-content h1 {
-    font-size: 60px;
-    line-height: 1.2em;
-  }
-  
-  #showcase #showcase-content p {
-    padding-bottom: 20px;
-    line-height: 1.7em;
-  }
-  
-  /* Home Info */
+
   #home-info {
     height: 400px;
   }
@@ -175,14 +155,14 @@
     height: 100%;
     text-align: center;
     padding: 50px 30px;
-    overflow: hidden;
+    
   }
   
   #home-info .info-content p {
     padding-bottom: 30px;
   }
   
-  /* Features */
+  
   .box {
     float: left;
     width: 33.3%;
@@ -194,7 +174,7 @@
     margin-bottom: 10px;
   }
   
-  /* About Info */
+  
   #about-info .info-right {
     float: right;
     width: 50%;
@@ -213,62 +193,33 @@
     width: 50%;
     min-height: 100%;
   }
-  
-  /* Testimonials */
-  #testimonials {
-    height: 100%;
-    background: url("../img/test-bg.jpg") no-repeat center center/cover;
-    padding-top: 100px;
-  }
-  
-  #testimonials h2 {
-    color: white;
-    text-align: center;
-    padding-bottom: 40px;
-  }
-  
-  #testimonials .testimonial {
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    opacity: 0.9;
-  }
-  
-  #testimonials .testimonial img {
-    width: 100px;
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-  }
-  
-  /* Contact Form */
-  #contact-form .form-group {
+  #c-form .form-group {
     margin-bottom: 20px;
   }
   
-  #contact-form label {
+  #c-form label {
     display: block;
     margin-bottom: 5px;
   }
   
-  #contact-form input,
-  #contact-form textarea {
+  #c-form input,
+  #c-form textarea {
     width: 100%;
     padding: 10px;
     border: 1px #ddd solid;
   }
   
-  #contact-form textarea {
+  #c-form textarea {
     height: 200px;
   }
   
-  #contact-form input:focus,
-  #contact-form textarea:focus {
+  #c-form input:focus,
+  #c-form textarea:focus {
     outline: none;
     border-color: #f7c08a;
   }
   
-  /* Footer */
+  
   #main-footer {
     text-align: center;
     background: #444;
